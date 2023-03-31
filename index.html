@@ -1,0 +1,367 @@
+<!-- a basic html document -->
+<!DOCTYPE html>
+<head>
+<title>Bucks2Bar</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+</head>
+<body>
+    <!-- black bootstrap navbar -->
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Bucks2Bar</a>
+        </div>
+
+
+    </nav>
+
+    <!-- bootstrap grid with 12 rows and 1 column for small screens, and 6 rows and 2 columns for medium screens and above,
+    each cell contains label of the month from January to December,
+    and 2 bootstrap number inputs side by side with labels, 1 for income and 1 for expenses. -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <label for="january" class="form-label fw-bold">January</label>
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">$</span>
+                            <input
+                                type="number"
+                                class="form-control"
+                                id="januaryIncome"
+                                placeholder="Income">
+                            <span class="input-group-text">.00</span>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">$</span>
+                            <input
+                                type="number"
+                                class="form-control"
+                                id="januaryExpenses"
+                                placeholder="Expenses">
+                            <span class="input-group-text">.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <label for="february" class="form-label fw-bold">February</label>
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">$</span>
+                            <input
+                                type="number"
+                                class="form-control"
+                                id="februaryIncome"
+                                placeholder="Income">
+                            <span class="input-group-text">.00</span>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">$</span>
+                            <input
+                                type="number"
+                                class="form-control"
+                                id="februaryExpenses"
+                                placeholder="Expenses">
+                            <span class="input-group-text">.00</span>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <label for="march" class="form-label fw-bold">March</label>
+                        <div class="row">
+                            <div class="col-sm">
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text">$</span>
+                                    <input
+                                        type="number"
+                                        class="form-control"
+                                        id="marchIncome"
+                                        placeholder="Income">
+                                    <span class="input-group-text">.00</span>
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text">$</span>
+                                    <input
+                                        type="number"
+                                        class="form-control"
+                                        id="marchExpenses"
+                                        placeholder="Expenses">
+                                    <span class="input-group-text">.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <label for="april" class="form-label fw-bold">April</label>
+                        <div class="row">
+                            <div class="col-sm">
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text">$</span>
+                                    <input
+                                        type="number"
+                                        class="form-control"
+                                        id="aprilIncome"
+                                        placeholder="Income">
+                                    <span class="input-group-text">.00</span>
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text">$</span>
+                                    <input
+                                        type="number"
+                                        class="form-control"
+                                        id="aprilExpenses"
+                                        placeholder="Expenses">
+                                    <span class="input-group-text">.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6">
+                                <label for="may" class="form-label fw-bold">May</label>
+                                <div class="row">
+                                    <div class="col-sm">
+                                        <div class="input-group mb-3">
+                                            <span class="input-group-text">$</span>
+                                            <input
+                                                type="number"
+                                                class="form-control"
+                                                id="mayIncome"
+                                                placeholder="Income">
+                                            <span class="input-group-text">.00</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm">
+                                        <div class="input-group mb-3">
+                                            <span class="input-group-text">$</span>
+                                            <input
+                                                type="number"
+                                                class="form-control"
+                                                id="mayExpenses"
+                                                placeholder="Expenses">
+                                            <span class="input-group-text">.00</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <label for="june" class="form-label fw-bold">June</label>
+                                <div class="row">
+                                    <div class="col-sm">
+                                        <div class="input-group mb-3">
+                                            <span class="input-group-text">$</span>
+                                            <input
+                                                type="number"
+                                                class="form-control"
+                                                id="juneIncome"
+                                                placeholder="Income">
+                                            <span class="input-group-text">.00</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm">
+                                        <div class="input-group mb-3">
+                                            <span class="input-group-text">$</span>
+                                            <input
+                                                type="number"
+                                                class="form-control"
+                                                id="juneExpenses"
+                                                placeholder="Expenses">
+                                            <span class="input-group-text">.00</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-6">
+                                        <label for="july" class="form-label fw-bold">July</label>
+                                        <div class="row">
+                                            <div class="col-sm">
+                                                <div class="input-group mb-3">
+                                                    <span class="input-group-text">$</span>
+                                                    <input
+                                                        type="number"
+                                                        class="form-control"
+                                                        id="julyIncome"
+                                                        placeholder="Income">
+                                                    <span class="input-group-text">.00</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm">
+                                                <div class="input-group mb-3">
+                                                    <span class="input-group-text">$</span>
+                                                    <input
+                                                        type="number"
+                                                        class="form-control"
+                                                        id="julyExpenses"
+                                                        placeholder="Expenses">
+                                                    <span class="input-group-text">.00</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-6">
+                                        <label for="august" class="form-label fw-bold">August</label>
+                                        <div class="row">
+                                            <div class="col-sm">
+                                                <div class="input-group mb-3">
+                                                    <span class="input-group-text">$</span>
+                                                    <input
+                                                        type="number"
+                                                        class="form-control"
+                                                        id="augustIncome"
+                                                        placeholder="Income">
+                                                    <span class="input-group-text">.00</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm">
+                                                <div class="input-group mb-3">
+                                                    <span class="input-group-text">$</span>
+                                                    <input
+                                                        type="number"
+                                                        class="form-control"
+                                                        id="augustExpenses"
+                                                        placeholder="Expenses">
+                                                    <span class="input-group-text">.00</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-12 col-md-6">
+                                                <label for="september" class="form-label fw-bold">September</label>
+                                                <div class="row">
+                                                    <div class="col-sm">
+                                                        <div class="input-group mb-3">
+                                                            <span class="input-group-text">$</span>
+                                                            <input
+                                                                type="number"
+                                                                class="form-control"
+                                                                id="septemberIncome"
+                                                                placeholder="Income">
+                                                            <span class="input-group-text">.00</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm">
+                                                        <div class="input-group mb-3">
+                                                            <span class="input-group-text">$</span>
+                                                            <input
+                                                                type="number"
+                                                                class="form-control"
+                                                                id="septemberExpenses"
+                                                                placeholder="Expenses">
+                                                            <span class="input-group-text">.00</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 col-md-6">
+                                                <label for="october" class="form-label fw-bold">October</label>
+                                                <div class="row">
+                                                    <div class="col-sm">
+                                                        <div class="input-group mb-3">
+                                                            <span class="input-group-text">$</span>
+                                                            <input
+                                                                type="number"
+                                                                class="form-control"
+                                                                id="octoberIncome"
+                                                                placeholder="Income">
+                                                            <span class="input-group-text">.00</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm">
+                                                        <div class="input-group mb-3">
+                                                            <span class="input-group-text">$</span>
+                                                            <input
+                                                                type="number"
+                                                                class="form-control"
+                                                                id="octoberExpenses"
+                                                                placeholder="Expenses">
+                                                            <span class="input-group-text">.00</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-12 col-md-6">
+                                                        <label for="november" class="form-label fw-bold">November</label>
+                                                        <div class="row">
+                                                            <div class="col-sm">
+                                                                <div class="input-group mb-3 ">
+                                                                    <span class="input-group-text">$</span>
+                                                                    <input
+                                                                        type="number"
+                                                                        class="form-control"
+                                                                        id="novemberIncome"
+                                                                        placeholder="Income">
+                                                                    <span class="input-group-text">.00</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-sm">
+                                                                <div class="input-group mb-3">
+                                                                    <span class="input-group-text">$</span>
+                                                                    <input
+                                                                        type="number"
+                                                                        class="form-control"
+                                                                        id="novemberExpenses"
+                                                                        placeholder="Expenses">
+                                                                    <span class="input-group-text">.00</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6">
+                                                        <label for="december" class="form-label fw-bold">December</label>
+                                                        <div class="row">
+                                                            <div class="col-sm">
+                                                                <div class="input-group mb-3">
+                                                                    <span class="input-group-text">$</span>
+                                                                    <input
+                                                                        type="number"
+                                                                        class="form-control"
+                                                                        id="decemberIncome"
+                                                                        placeholder="Income">
+                                                                    <span class="input-group-text">.00</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-sm">
+                                                                <div class="input-group mb-3">
+                                                                    <span class="input-group-text">$</span>
+                                                                    <input
+                                                                        type="number"
+                                                                        class="form-control"
+                                                                        id="decemberExpenses"
+                                                                        placeholder="Expenses">
+                                                                    <span class="input-group-text">.00</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        </div>
+                                                        </div>
+                                                        </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
